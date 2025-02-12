@@ -5,22 +5,22 @@ import './App.css'
 import Header from './Header.jsx'
 import FoodCard from './FoodCard.jsx'
 import FoodButton from './FoodButton.jsx'
+
 function App() {
 
 
   
  //bude se nacitat z api (asi)
 
- const [isButtonActive, setButtonActive] = useState(false);
-
+ 
  
   return(
     <>
-      
+    
       <FoodButton></FoodButton>
       <FoodCard image="https://www.jidelnasokolska.cz/images/foots/IMG_1026.jpg" name="Svíčková" description="Neco neco"/>
         <FoodCard image="https://www.jidelnasokolska.cz/images/foots/IMG_1014.jpg" name="Rizzoto" description="Neco neco jineho"/>
-
+    
       
     </>
   )
