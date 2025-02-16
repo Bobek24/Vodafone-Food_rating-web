@@ -1,10 +1,10 @@
-
-
-.star_input{
-    display: none;
-}
-
-
-.star{
-cursor: pointer;
-}
+.star {
+    font-size: 24px;
+    color: gold;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .star:hover {
+    transform: scale(1.2);
+  }
+  
