@@ -1,0 +1,23 @@
+[
+    {
+      "id": 1,
+      "nazev": "Kuřecí vývar + Špagety s omáčkou",
+      "datum": "13.2.2025",
+      "popis": "Lehká kuřecí polévka a těstoviny s rajčatovo-masovou omáčkou.",
+      "fotka": "https://www.jidelnasokolska.cz/images/foots/IMG_1026.jpg"
+    },
+    {
+      "id": 2,
+      "nazev": "Hovězí guláš + Rýže",
+      "datum": "14.2.2025",
+      "popis": "Tradiční hovězí guláš z pomalu dušeného masa, podávaný s rýží.",
+      "fotka": "https://www.jidelnasokolska.cz/images/foots/IMG_1031.jpg"
+    },
+    {
+      "id": 3,
+      "nazev": "Zeleninová polévka + Pečené kuře",
+      "datum": "15.2.2025",
+      "popis": "Zeleninový vývar a kuře pečené na bylinkách s bramborem.",
+      "fotka": "https://www.jidelnasokolska.cz/images/foots/IMG_1044.jpg"
+    }
+  ]
