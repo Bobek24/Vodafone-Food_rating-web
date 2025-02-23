@@ -5,7 +5,7 @@ import MenuList from "./components/MenuList";
 import SurveyResults from "./components/SurveyResults";
 import LandingPage from "./components/LandingPage";
 import "./styles/App.css"; // Add proper styles
-
+ 
 function App() {
   const [user, setUser] = useState(null);
   const [error, setError] = useState("");
