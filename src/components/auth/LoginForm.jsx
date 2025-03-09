@@ -13,8 +13,18 @@ function LoginForm({ onLoginSuccess }) {
     setError('');
     setMessage('');
 
+    const isValidEmail = (email) => {
+      return email.endsWith('@spsejecna.cz');
+    };
+
+
     if (!email) {
       setError('Zadejte e-mail!');
+      return;
+    }
+
+    if (!isValidEmail(email)) {
+      setError('Použijte školní e-mail končící na @spsejecna.cz!');
       return;
     }
 
